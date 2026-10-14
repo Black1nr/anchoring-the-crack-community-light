@@ -9,20 +9,21 @@ matrix.
 ## Repository contents
 
 - `firmware/` — CircuitPython program and safe configuration template.
-- `enclosure/source/` — editable OpenSCAD files and the Python model generator.
-- `enclosure/printable/` — STL files for 3D printing.
-- `enclosure/assembly/` — assembly preview and 3MF project file.
+- `enclosure/source/` — editable OpenSCAD files and the final-cap generator.
+- `enclosure/printable/` — final STL files for 3D printing.
+- `enclosure/assembly/` — assembly preview and rear-part 3MF project file.
+- `enclosure/docs/` — corner-stop preview and dimensioned drawings.
 - `api/` — the minimum public data format consumed by the light.
 - `hardware/` — preliminary component list and wiring notes.
 
-## Important enclosure-version note
+## Enclosure release
 
-The enclosure files currently included here are the latest files available in
-the local thesis archive. They include the final external dimensions, USB
-notches, wiring opening, and 0.2 mm side clearance, but the front-cap source and
-STL do **not yet contain the four internal corner stops described in the final
-thesis text**. The verified corner-stop files should replace these files before
-the repository is cited as the final fabrication release.
+The repository now includes the verified front-cap package supplied for the
+final fabrication release. The cap contains four internal corner stops, each
+1.5 × 1.5 mm in cross-section and 10.0 mm high. It retains the final external
+dimensions, USB notch, entry chamfer, and 0.2 mm side clearance. Full dimensions,
+generation instructions, and the remaining physical-fit caveat are documented
+in [`enclosure/README.md`](enclosure/README.md).
 
 ## Firmware behaviour
 
