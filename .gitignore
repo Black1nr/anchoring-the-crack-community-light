@@ -1,0 +1,12 @@
+settings.toml
+secrets.py
+*.corrupt-backup.toml
+boot_out.txt
+.DS_Store
+._*
+.Trash*/
+.Trashes/
+.fseventsd/
+__pycache__/
+*.pyc
+

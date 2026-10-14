@@ -1,0 +1,8 @@
+category,item,quantity,known specification,notes
+electronics,Addressable RGB LED matrix,1,16 x 16 / 256 pixels,Serpentine pixel order
+electronics,LOLIN S2 Mini,1,ESP32-S2 / CircuitPython,LED data output uses GPIO16
+power,USB cable,1,Compatible with LOLIN S2 Mini,Exits through the aligned 12 x 7 mm notches
+fabrication,Rear enclosure,1,161 x 161 x 11.2 mm,3D printed
+fabrication,Translucent front cap,1,165.4 x 165.4 x 22.6 mm,3D printed diffuser and cover
+wiring,LED power and data conductors,1 set,5V / GND / DIN,Verify the final connector and wire gauge before replication
+
