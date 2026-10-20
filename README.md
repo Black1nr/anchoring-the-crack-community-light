@@ -61,7 +61,8 @@ are not transmitted to the lamp.
 
 ## Licence
 
-An open-source licence has not yet been selected by the project author. Until a
-licence file is added, the files remain available for review but no reuse rights
-are granted by default.
+The Community Glow firmware, enclosure files, hardware documentation, and API
+specification are released under the MIT License. Others may study, modify,
+reproduce, and share their own versions of the light. See [LICENSE](LICENSE) for
+details.
 
